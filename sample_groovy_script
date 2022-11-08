@@ -1,0 +1,22 @@
+def a = 10.1
+def samplex(a)	{
+  	println a
+}
+
+samplex(a)
+
+def b = "abc"
+if ( b == "abc" )
+{
+  println "OK"
+}
+else
+{
+  println "NOT OK"
+}
+
+def cars = [ "ford", "bmw", "benz" ]
+for (car in cars)
+{
+    println "car name is $car"
+}
